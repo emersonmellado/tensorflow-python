@@ -42,4 +42,4 @@
   pip: name=jupyter_contrib_nbextensions state=present executable=pip3
 
 - name: install Tensorflow
-  pip: name=tensorflow version=1.0.0 state=present executable=pip3
+  pip: name=tensorflow version=1.4.0 state=present executable=pip3
