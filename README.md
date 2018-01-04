@@ -1,9 +1,6 @@
-# tensorflow-ipy
+# tensorflow-python
 
-* Source code - [Github][1]
-* Author - Gavin Noronha - <gnoronha@hotmail.com>
-
-[1]: https://github.com/gavinln/tensorflow-ipy.git
+[1]: https://github.com/emersonmellado/tensorflow-python.git
 
 ## About
 
@@ -29,10 +26,10 @@ included here.
 
 ### 1. Start the VM
 
-1. Change to the tensorflow-ipy root directory
+1. Change to the tensorflow-python root directory
 
     ```
-    cd tensorflow-ipy
+    cd tensorflow-python
     ```
 
 2. Start the Virtual machine (VM)
@@ -63,6 +60,12 @@ First run section 1.
     python3 first-tensorflow.py
     # to disable warnings type
     TF_CPP_MIN_LOG_LEVEL=2 python3 first-tensorflow.py
+    ```
+    ```
+    python3 getting-started.py
+    ```
+    ```
+    python3 estimator.py
     ```
 
 3. Make sure the version printed on the first line of the output is the version
